@@ -6,8 +6,8 @@ from skimage.feature import hog
 from streamlit_drawable_canvas import st_canvas
 import matplotlib.pyplot as plt
 
-st.title("MNIST Digit Classifier 🎨")
-st.write("Draw a digit or upload a handwritten digit image (JPG/PNG). It will be classified using a HOG + ML model.")
+st.title(" Digit Classifier")
+st.write("Draw a digit ")
 
 # Load trained model and scaler
 model = pickle.load(open("mnist_model.pkl", "rb"))
